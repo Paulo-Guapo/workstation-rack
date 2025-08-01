@@ -36,7 +36,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - uses: ./.github/actions/maven_build
 
     
     - name: Set up JDK 21
