@@ -155,7 +155,7 @@ class HelloAcademyTest {
 
         String actualName = helloAcademy.sayHello(name); // tenho e meter depois
         //then
-        assertEquals("Hello from outer Space", actualName);
+        assertEquals("Hello from outer Space Academy", actualName);
 
         //Mockito.verify(carService).doSomething(); // verificar car service -> posso ver quantas vezes foi chamado adicionando numeros
 
