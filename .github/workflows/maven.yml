@@ -49,5 +49,5 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: build Docker
-      run: docker build . --file src\main\docker\Dockerfile.jvm --tag academy:$(date +%s)
+      run: docker build . --file src\main\docker\Dockerfile.jvm --tag academy:v1
       shell: bash
