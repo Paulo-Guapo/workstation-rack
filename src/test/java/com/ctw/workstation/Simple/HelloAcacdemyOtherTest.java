@@ -13,14 +13,17 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @QuarkusTest
 @QuarkusTestResource(WiremockResource.class)
+
+
 class HelloAcacdemyOtherTest {
 
-    @Inject
-    HelloAcacdemyOther helloAcacdemyOther;
+    //@Inject
+    //HelloAcacdemyOther helloAcacdemyOther;
 
-    @Test
-    @DisplayName("Say hello with valid name")
-    void say_Hello_With_Valid_Name() {
+
+    //@Test
+    //@DisplayName("Say hello with valid name")
+    //void say_Hello_With_Valid_Name() {
 
         //Given
 
@@ -39,6 +42,8 @@ class HelloAcacdemyOtherTest {
 
          */
 
-    }
+    //}
+
+
 
 }
