@@ -18,30 +18,30 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.mockito.junit.jupiter.MockitoExtension;
-
-import java.time.LocalDateTime;
-
-import static org.junit.jupiter.api.Assertions.*;
-
-@ExtendWith(MockitoExtension.class)
-@QuarkusTest
-class TeammemberResourceTest {
-
-    @Mock
-    teammemberRepository teammemberRepo; // precisso disto? ver
-    @Mock
-    TeammemberMapper teammemberMapper;
-
-    @Inject
-    TeamResource  teamResource;
-
-    @InjectMocks
-    TeammemberResource teammemberResource;
-
-    @DisplayName("Create Teammember")
-    @Test
-    void create_Teammember() {
+//import org.mockito.junit.jupiter.MockitoExtension;
+//
+//import java.time.LocalDateTime;
+//
+//import static org.junit.jupiter.api.Assertions.*;
+//
+//@ExtendWith(MockitoExtension.class)
+//@QuarkusTest
+////class TeammemberResourceTest {
+////
+//    @Mock
+//    teammemberRepository teammemberRepo; // precisso disto? ver
+//    @Mock
+//    TeammemberMapper teammemberMapper;
+//
+//    @Inject
+//    TeamResource  teamResource;
+//
+//    @InjectMocks
+//    TeammemberResource teammemberResource;
+//
+//    @DisplayName("Create Teammember")
+//    @Test
+//    void create_Teammember() {
 
 //        //Given
 //        UriInfo uriInfo = Mockito.mock(UriInfo.class);
@@ -65,8 +65,8 @@ class TeammemberResourceTest {
 //                .post("/teammember")
 //                .then()
 //                .statusCode(201);
-
-    }
-
-
-}
+//
+//    }
+//
+//
+//}

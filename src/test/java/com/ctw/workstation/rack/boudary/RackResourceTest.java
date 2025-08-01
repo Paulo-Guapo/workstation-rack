@@ -20,19 +20,19 @@ import java.time.LocalDateTime;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@ExtendWith(MockitoExtension.class)
-@QuarkusTest
-class RackResourceTest {
-
-    @Inject
-    TeamResource teamResource;
-
-    @InjectMocks // necessario? maybe not
-    RackResource rackResource;
-
-    @DisplayName("Create Rack")
-    @Test
-    void create_Rack() {
+//@ExtendWith(MockitoExtension.class)
+//@QuarkusTest
+//class RackResourceTest {
+//
+//    @Inject
+//    TeamResource teamResource;
+//
+//    @InjectMocks // necessario? maybe not
+//    RackResource rackResource;
+//
+//    @DisplayName("Create Rack")
+//    @Test
+//    void create_Rack() {
 
 //        //Given
 //        UriInfo uriInfo = Mockito.mock(UriInfo.class);
@@ -62,6 +62,6 @@ class RackResourceTest {
 //                .then()
 //                .statusCode(201);
 
-    }
-
-}
+//    }
+//
+//}

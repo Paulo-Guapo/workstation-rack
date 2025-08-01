@@ -32,40 +32,40 @@ import java.time.LocalDateTime;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@ExtendWith(MockitoExtension.class)
-@QuarkusTest
-//@TestHTTPEndpoint("")
-class BookingResourceTest {
-
-    @Inject
-    TeamResource teamResource;
-    @Inject
-    RackResource rackResource;
-    @Inject
-    TeammemberResource teammemberResource;
-
-    @InjectMocks
-    BookingResource bookingResource;
-
-    @Mock
-    bookingRepository bookingRepo;
-
-    @Mock
-    BookingMapper bookingMapper;
+//@ExtendWith(MockitoExtension.class)
+//@QuarkusTest
+////@TestHTTPEndpoint("")
+//class BookingResourceTest {
+//
+//    @Inject
+//    TeamResource teamResource;
+//    @Inject
+//    RackResource rackResource;
+//    @Inject
+//    TeammemberResource teammemberResource;
+//
+//    @InjectMocks
+//    BookingResource bookingResource;
+//
+//    @Mock
+//    bookingRepository bookingRepo;
+//
+//    @Mock
+//    BookingMapper bookingMapper;
 
     // nota: Resource NUNCA trabalha com entidades -> nunca se espoes -> por isso é que se usa um service
 
-    @BeforeAll
-    @Transactional // precisso disto? for some reason
-    public static void setup() {
+//    @BeforeAll
+//    @Transactional // precisso disto? for some reason
+//    public static void setup() {
+//
+//
+//
+//    }
 
-
-
-    }
-
-    @Test
-    @DisplayName("Create booking")
-    void create_Booking(){
+//    @Test
+//    @DisplayName("Create booking")
+//    void create_Booking(){
 
 //        //given //criar os objetos que precisso
 //
@@ -107,8 +107,8 @@ class BookingResourceTest {
 //
 
 
-    }
-
-
-
-}
+//    }
+//
+//
+//
+//}

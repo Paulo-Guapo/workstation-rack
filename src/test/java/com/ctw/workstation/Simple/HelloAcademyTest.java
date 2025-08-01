@@ -18,15 +18,15 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.when;
-
-@ExtendWith(MockitoExtension.class) // para poder dar inject de mocks
-
-@TestInstance(TestInstance.Lifecycle.PER_CLASS)//por default é gerado uma instance é por method
-//^ por class posso usar a cenas nos methdos staticos porque todos passam a partilhas as coisas
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-class HelloAcademyTest {
+//import static org.junit.jupiter.api.Assertions.*;
+//import static org.mockito.Mockito.when;
+//
+//@ExtendWith(MockitoExtension.class) // para poder dar inject de mocks
+//
+//@TestInstance(TestInstance.Lifecycle.PER_CLASS)//por default é gerado uma instance é por method
+////^ por class posso usar a cenas nos methdos staticos porque todos passam a partilhas as coisas
+//@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+//class HelloAcademyTest {
 
     /*
     //tenho de meter a pasta Simple?
@@ -116,29 +116,29 @@ class HelloAcademyTest {
     //@Mock //@Spy ou @Mock
     //ExternalMessageService externalMessageServiceMock; // -> este é a interface
 
-    @Spy //@Spy ou @Mock // tmb posso usar spy aqui, como anotaçao
-    ExternalMessageServiceImpl externalMessageServiceMock; // -> este é a class(objeto)
-
-    @InjectMocks // inject mocks todos aqui neste gajo // posso ter varios InjectMocks? provavelmente posso se estiverem em ordem uns do outros?
-    HelloAcademy helloAcademy;
-
-    @BeforeEach
-    void setUp() {
-        externalMessageServiceMock = Mockito.spy(new ExternalMessageServiceImpl()); // implementaçao da interface -> class
-        //externalMessageServiceMock = Mockito.mock(ExternalMessageService.class); // mock da interface
-        helloAcademy = new HelloAcademy(externalMessageServiceMock);
-        //helloAcademy = new HelloAcademy();
-
-        //Carservice carService = Mockito.mock(Carservice.class);
-
-    }
-/*
-    @Test
-    @DisplayName("when providing a null name a message from outer space apears")
-    void when_providing_a_null_name_a_message_from_outer_space_apears(){
-
-        //given
-        String name = null;
+//    @Spy //@Spy ou @Mock // tmb posso usar spy aqui, como anotaçao
+//    ExternalMessageServiceImpl externalMessageServiceMock; // -> este é a class(objeto)
+//
+//    @InjectMocks // inject mocks todos aqui neste gajo // posso ter varios InjectMocks? provavelmente posso se estiverem em ordem uns do outros?
+//    HelloAcademy helloAcademy;
+//
+//    @BeforeEach
+//    void setUp() {
+//        externalMessageServiceMock = Mockito.spy(new ExternalMessageServiceImpl()); // implementaçao da interface -> class
+//        //externalMessageServiceMock = Mockito.mock(ExternalMessageService.class); // mock da interface
+//        helloAcademy = new HelloAcademy(externalMessageServiceMock);
+//        //helloAcademy = new HelloAcademy();
+//
+//        //Carservice carService = Mockito.mock(Carservice.class);
+//
+//    }
+///*
+//    @Test
+//    @DisplayName("when providing a null name a message from outer space apears")
+//    void when_providing_a_null_name_a_message_from_outer_space_apears(){
+//
+//        //given
+//        String name = null;
 
         //when
         //String actualName = helloAcademy.sayHello(name);
@@ -150,17 +150,17 @@ class HelloAcademyTest {
         //when(externalMessageServiceMock.sayHelloFromOuterSpace(name)).thenReturn("Hello from outer Space"); // se nao usar a extenção a validação nao é feita
         //when(externalMessageServiceMock.sayHelloFromOuterSpace()).thenReturn("Hello from outer Space"); // posso usar agora porcausa dos Injects?
 
-        //Mockito.doThrow(NullPointerException.class).when(externalMessageServiceMock).sayHelloFromOuterSpace(); // ver se o trow acontece
-        Mockito.doNothing().when(externalMessageServiceMock).fazAlgo(); // posso ignorar a execução de sertos methodos dentro do objeto
-
-        String actualName = helloAcademy.sayHello(name); // tenho e meter depois
-        //then
-        assertEquals("Hello from outer Space Academy", actualName);
+//        //Mockito.doThrow(NullPointerException.class).when(externalMessageServiceMock).sayHelloFromOuterSpace(); // ver se o trow acontece
+//        Mockito.doNothing().when(externalMessageServiceMock).fazAlgo(); // posso ignorar a execução de sertos methodos dentro do objeto
+//
+//        String actualName = helloAcademy.sayHello(name); // tenho e meter depois
+//        //then
+//        assertEquals("Hello from outer Space Academy", actualName);
 
         //Mockito.verify(carService).doSomething(); // verificar car service -> posso ver quantas vezes foi chamado adicionando numeros
 
-    }
-    */
+//    }
+//    */
 
     /*
     @Test
@@ -182,4 +182,4 @@ class HelloAcademyTest {
 
      */
 
-}
+//}

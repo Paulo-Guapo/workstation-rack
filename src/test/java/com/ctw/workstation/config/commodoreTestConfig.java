@@ -6,7 +6,7 @@ import io.quarkus.test.common.QuarkusTestResourceLifecycleManager;
 
 import java.util.Map;
 
-public class commodoreTestConfig{ //implements QuarkusTestResourceLifecycleManager {
+//public class commodoreTestConfig{ //implements QuarkusTestResourceLifecycleManager {
 
     //start
     //stop
@@ -22,6 +22,6 @@ public class commodoreTestConfig{ //implements QuarkusTestResourceLifecycleManag
      */
 
 
-}
+//}
 
 

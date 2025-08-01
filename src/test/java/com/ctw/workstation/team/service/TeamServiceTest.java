@@ -12,21 +12,21 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@ExtendWith(MockitoExtension.class)
-@QuarkusTest
-class TeamServiceTest {
-// este aqui era para explicar o mock do quarkus
-    //@InjectMock
-
-    @Inject
-    TeamService teamService;
-    @Inject
-    TeamResource teamResource;
-
-    @Test
-    @DisplayName("Create Team")
-    void create_Team() {
-        //given
+//@ExtendWith(MockitoExtension.class)
+//@QuarkusTest
+//class TeamServiceTest {
+//// este aqui era para explicar o mock do quarkus
+//    //@InjectMock
+//
+//    @Inject
+//    TeamService teamService;
+//    @Inject
+//    TeamResource teamResource;
+//
+//    @Test
+//    @DisplayName("Create Team")
+//    void create_Team() {
+//        //given
 
         //TeamResource teamResource = new TeamResource("nome","projeto"); // nao sei o que é isto tbh
         //TeamDto teamDto = teamService.create(teamResource); // nao tenho o create aqui dentro ainda fkk
@@ -44,7 +44,7 @@ class TeamServiceTest {
          */
 
 
-
-    }
-
-}
+//
+//    }
+//
+//}

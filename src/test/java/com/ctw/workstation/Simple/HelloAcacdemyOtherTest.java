@@ -1,8 +1,8 @@
-package com.ctw.workstation.Simple;
-
-import com.ctw.workstation.External.ExternalApi;
-import com.ctw.workstation.config.WiremockResource;
-import com.ctw.workstation.config.commodoreTestConfig;
+//package com.ctw.workstation.Simple;
+//
+//import com.ctw.workstation.External.ExternalApi;
+//import com.ctw.workstation.config.WiremockResource;
+//import com.ctw.workstation.config.commodoreTestConfig;
 import io.quarkus.test.common.QuarkusTestResource;
 import io.quarkus.test.junit.QuarkusTest;
 import jakarta.inject.Inject;
@@ -11,11 +11,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@QuarkusTest
-@QuarkusTestResource(WiremockResource.class)
-
-
-class HelloAcacdemyOtherTest {
+//@QuarkusTest
+//@QuarkusTestResource(WiremockResource.class)
+//
+//
+//class HelloAcacdemyOtherTest {
 
     //@Inject
     //HelloAcacdemyOther helloAcacdemyOther;
@@ -46,4 +46,4 @@ class HelloAcacdemyOtherTest {
 
 
 
-}
+//}

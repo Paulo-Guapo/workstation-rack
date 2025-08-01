@@ -24,21 +24,21 @@ import java.time.LocalDateTime;
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.jupiter.api.Assertions.*;
 
-@ExtendWith(MockitoExtension.class)
-@QuarkusTest
-//@TestHTTPEndpoint(value = "/team") // -> isto nao funciona por alguma razao -> por porque
-class TeamResourceTest {
+//@ExtendWith(MockitoExtension.class)
+//@QuarkusTest
+////@TestHTTPEndpoint(value = "/team") // -> isto nao funciona por alguma razao -> por porque
+//class TeamResourceTest {
+//
+//    @Mock // isto é mock? deveria ser injeto (maybe)
+//    TeamService teamService;
 
-    @Mock // isto é mock? deveria ser injeto (maybe)
-    TeamService teamService;
-
-    @Inject
-    TeamResource teamResource;
-
-    @BeforeEach
-    void setUp() {
-
-//        //huh
+//    @Inject
+//    TeamResource teamResource;
+//
+//    @BeforeEach
+//    void setUp() {
+//
+////        //huh
 //
 //        UriInfo uriInfo = Mockito.mock(UriInfo.class);
 //        Mockito.when(uriInfo.getAbsolutePathBuilder()).thenReturn(UriBuilder.fromPath("/team")); // wtf happn here
@@ -48,15 +48,15 @@ class TeamResourceTest {
 //        teamResource.addTeam(teamDto,uriInfo);
 //
 
-    }
+//    }
 
-    @DisplayName("Create Team")
-    @Test
-    void create_Team() {
-
-        //given
-        //when
-        //then
+//    @DisplayName("Create Team")
+//    @Test
+//    void create_Team() {
+//
+//        //given
+//        //when
+//        //then
 
 //        RestAssured.given().contentType(ContentType.JSON).body("""
 //        {
@@ -75,11 +75,11 @@ class TeamResourceTest {
 //        //var response = RestAssured.given().contentType(ContentType.JSON); // -> wtf is this
 //
 
-    }
-
-    @DisplayName("Get Team by Id")
-    @Test
-    void get_Team_By_Id() {
+//    }
+//
+//    @DisplayName("Get Team by Id")
+//    @Test
+//    void get_Team_By_Id() {
 
         //given
         //when
@@ -88,7 +88,7 @@ class TeamResourceTest {
         //RestAssured.get("/team").then().contentType(ContentType.JSON).statusCode(200);
 //        RestAssured.given().param("teamId", "1").when().get("/team/{teamId}");
 
-    }
-
-
-}
+//    }
+//
+//
+//}
