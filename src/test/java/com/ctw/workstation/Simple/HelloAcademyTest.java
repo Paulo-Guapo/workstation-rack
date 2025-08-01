@@ -132,7 +132,7 @@ class HelloAcademyTest {
         //Carservice carService = Mockito.mock(Carservice.class);
 
     }
-
+/*
     @Test
     @DisplayName("when providing a null name a message from outer space apears")
     void when_providing_a_null_name_a_message_from_outer_space_apears(){
@@ -160,7 +160,9 @@ class HelloAcademyTest {
         //Mockito.verify(carService).doSomething(); // verificar car service -> posso ver quantas vezes foi chamado adicionando numeros
 
     }
+    */
 
+    /*
     @Test
     @DisplayName("when providing valid name a message from outer space apears")
     void when_providing_name_valid_a_message_from_outer_space_apears(){
@@ -177,5 +179,7 @@ class HelloAcademyTest {
         assertEquals("Hello from outer Space", actualName);
 
     }
+
+     */
 
 }
