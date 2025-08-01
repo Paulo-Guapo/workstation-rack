@@ -25,7 +25,7 @@ jobs:
     - uses: ./.github/actions/docker_build
       with:
         path_dockerfile: src/main/docker/Dockerfile.jvm
-        image_name: ${{ vars.DOCKERHUB_USERNAME }}/book-store-app
+        image_name: ${{vars.DOCKERHUB_USERNAME}}/workstation-rack-modulo
         tag_name: v1
 
 
